@@ -36,7 +36,7 @@ To add a custom command that opens a specific URL:
 Example:  
 **```/make-command: /mySite https://example.com```** 
 
-### Removing a Custom Command
+### Removing a custom shortcut
 To delete a previously saved custom command:  
 **```/delete-command: <command-name>```**  
 
