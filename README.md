@@ -1,64 +1,101 @@
+# 🚀 SimpleSearch Chrome Extension
 
-# SimpleSearch Chrome Browser Extension
+A **lightweight** and **powerful** browser extension that helps you browse **faster, smarter, and without relying on your mouse**! 🌟
 
-A simple pop up extension that enables you to browse faster and easier on the web using shortcuts and remove the need for using a computer mouse.
+---
 
+## 🎯 How to Open SimpleSearch
 
-## Opening the extension
+There are two ways to launch SimpleSearch:
 
-The inteded way of opening the extension is by pressing a desired keybind combination on your keyboard.  The other way is by simply clicking on it in the Extensions tab.  
+🔹 **Keyboard Shortcut (Recommended)**
+   - Default: **`Ctrl + Shift + Y`**
+   - Custom: Navigate to **`Chrome Extensions tab -> Keyboard Shortcuts -> SimpleSearch Extension Input 1.0 -> Activate the extension`**
+   - *(Requires Developer Mode enabled)* ⚙️
 
-Default shortcut: **```Ctrl + Shift + Y```**  
-Custom shortcut: **```Chrome Extensions tab -> Keyboard shortcuts -> Simple Search Extension Input 1.0 -> Activate the extension```**
-*[Requires enabled developer mode]*  
+🔹 **Manual Click**
+   - Simply click the extension icon in the **Extensions tab**. 🖱️
 
+---
 
-## Usage instructions
-Upon opening the extension you can simply browse the web by inputing the desired text and pressing Enter.  This will trigger a simple Google search with the text.   
+## ⚡ Instant Browsing with SimpleSearch
 
-You can also browse the web with the extension by using the shorcuts.  
-All shortcuts start with a **```/```** before the text.  
-There are 6 pre-made popular shortcuts that redirect you to the desired website.
+Once SimpleSearch is open, you can:
 
-### Default shortcuts
-*/yt* -> https://www.youtube.com  
-*/fb* -> https://www.facebook.com  
-*/insta* -> https://www.instagram.com  
-*/gmail* -> https://mail.google.com  
-*/discord* -> https://discord.com  
-*/amazon* -> https://www.amazon.com  
-*/spotify* -> https://open.spotify.com  
+✅ **Type any search query** and hit **Enter** to perform a quick Google search. 🔍
+✅ **Use shortcuts** to instantly navigate to your favorite sites.
+✅ **Create custom shortcuts** to tailor your browsing experience. 🎨
 
-### Creating your own shortcut
-To add a custom command that opens a specific URL:  
-**```/make-command: <command-name> <URL>```**
+---
 
-Example:  
-**```/make-command: /mySite https://example.com```** 
+## 🚀 Default Shortcuts
 
-### Removing a custom shortcut
-To delete a previously saved custom command:  
-**```/delete-command: <command-name>```**  
+All shortcuts start with a **`/`** before the keyword:
 
-Example:  
-**```/delete-command: /mySite```**
+| Shortcut  | Destination 🌐 |
+|-----------|---------------|
+| **`/yt`**  | [YouTube](https://www.youtube.com) 🎬 |
+| **`/fb`**  | [Facebook](https://www.facebook.com) 👥 |
+| **`/insta`** | [Instagram](https://www.instagram.com) 📷 |
+| **`/gmail`** | [Gmail](https://mail.google.com) ✉️ |
+| **`/discord`** | [Discord](https://discord.com) 🎧 |
+| **`/amazon`** | [Amazon](https://www.amazon.com) 🛒 |
+| **`/spotify`** | [Spotify](https://open.spotify.com) 🎵 |
 
-## UI Explanation
-Usual extension appearence without the extended Commands list.
+---
 
-![image](https://github.com/user-attachments/assets/30ca9580-b047-4322-bce7-5fbe059ab332)  
+## ✨ Customizing Your Experience
 
-**Sensitive checkbox**  
-If checked, the inputed commands need to be exact to the made shortcuts in order for them to work, meaning case sensetive etc.
+### 🛠️ **Create Your Own Shortcut**
+To add a new custom shortcut, use:
+```sh
+/make-command: <command-name> <URL>
+```
+Example:
+```sh
+/make-command: /mySite https://example.com
+```
+🔹 Now, typing **`/mySite`** will take you to **example.com** instantly!
 
-Left unchecked, enables a room of error for the intended shortcuts to work with minor errors.
+### ❌ **Remove a Custom Shortcut**
+To delete an existing shortcut, use:
+```sh
+/delete-command: <command-name>
+```
+Example:
+```sh
+/delete-command: /mySite
+```
+🔹 The shortcut **`/mySite`** is now removed! 🚫
 
-**Commands list** 
+---
 
-![image](https://github.com/user-attachments/assets/c12789ea-b2f3-41b9-97fb-6f086c2a9c29)
+## 🎨 UI Overview
 
-Displays all of the made shortcuts, including the pre-made and self made commands.  
-Also features an Onclick event on the commands that redirect to desired websites.
+### 🔹 **Default Appearance**
 
+📌 A minimal, sleek, and distraction-free popup:
+
+![SimpleSearch UI](https://github.com/user-attachments/assets/30ca9580-b047-4322-bce7-5fbe059ab332)
+
+### ✅ **Sensitive Mode Checkbox**
+
+☑ **Checked:** Commands must be typed exactly as created (case-sensitive, no typos). 🔒
+☐ **Unchecked:** Allows for small input errors and still recognizes the shortcut. 🔍
+
+### 📜 **Commands List**
+
+📌 Displays both **pre-made** and **user-defined** shortcuts for easy reference.
+📌 Clicking on any command **instantly redirects** you to the respective website.
+
+![Commands List](https://github.com/user-attachments/assets/c12789ea-b2f3-41b9-97fb-6f086c2a9c29)
+
+---
+
+## 🌟 Why Use SimpleSearch?
+✅ **Speeds up browsing** – no need to type long URLs!
+✅ **Works entirely with the keyboard** – ditch the mouse! 🎯
+✅ **Customizable & lightweight** – tailor it to your workflow.
+✅ **Privacy-friendly** – runs locally, no tracking. 🔒
 
 
