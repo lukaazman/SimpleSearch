@@ -1,0 +1,32 @@
+{
+  "name": "Simple Search Extension Input 1.0",
+  "description": "Browse the internet faster and easier, without premade commands and beginner friendly features",
+  "version": "1.0",
+  "manifest_version": 3,
+  "action": {
+    "default_popup": "index.html",
+    "default_icon": "hello_extensions.png"
+  },
+  "icons": {
+    "16": "hello_extensions.png",
+    "32": "hello_extensions.png",
+    "48": "hello_extensions.png",
+    "128": "hello_extensions.png"
+  },
+  "permissions": [
+    "activeTab",
+    "scripting",
+    "storage"
+  ],
+  "commands": {
+    "_execute_action": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+Y"
+      },
+      "description": "Open the search popup"
+    }
+  },
+  "background": {
+    "service_worker": "background.js"
+  }
+}

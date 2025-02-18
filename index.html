@@ -1,0 +1,26 @@
+<html>
+  <head>
+    <meta charset="utf-8"/>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link href="https://fonts.cdnfonts.com/css/helvetica-neue-55" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div class="overlay">
+      <input type="text" id="search-input" placeholder="Search..." />
+      <button id="search-button">Search</button>
+      <label id="chk">
+        <input type="checkbox" id="sensitive-checkbox" />
+        Sensitive
+      </label>
+      <div class="dropdown">
+        <button id="dropdown-button">Commands ▼</button>
+        <div class="command-container hidden"> <!-- Hidden by default -->
+          <ul id="pre-made-command-list" class="command-list"></ul>
+          <ul id="user-command-list" class="command-list"></ul>
+        </div>
+      </div>
+    </div>
+    <script src="popup.js"></script>
+  </body>
+</html>

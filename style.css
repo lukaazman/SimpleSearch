@@ -1,0 +1,104 @@
+body {
+  width: 100%;
+  height: 100%;
+  font-family: 'Helvetica Neue', 'Roboto Mono', ui-sans-serif, system-ui, -apple-system, 'BlinkMacSystemFont', sans-serif;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.overlay {
+  height: 100vh;
+  color: white;
+}
+
+#search-input {
+  width: 300px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  background-color: rgba(255, 255, 255, 0.1);
+  color: white;
+}
+
+#search-input:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+#search-button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #4CAF50;
+  color: white;
+  cursor: pointer;
+}
+
+#search-button:hover {
+  background-color: #45a049;
+}
+
+#chk {
+  display: inline-flex;
+  align-items: center;
+  margin-left: 10px;
+  color: white;
+  font-size: 125%;
+}
+
+.dropdown {
+  position: relative; /* Keep dropdown relative for positioning */
+  display: inline-block;
+  margin-left: 10px; /* Keeps the button's position */
+}
+
+#dropdown-button {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #4CAF50;
+  color: white;
+  cursor: pointer;
+}
+
+#dropdown-button:hover {
+  background-color: #45a049;
+}
+
+/* Updated dropdown container styling */
+.command-container {
+  position: absolute; /* Keep dropdown floating */
+  top: 40px; /* Adjust as necessary */
+  left: 0; /* Aligns dropdown with the button */
+  z-index: 1000; /* Ensure dropdown is on top */
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2); /* Shadow for depth */
+  max-width: 400px; /* Limit max width */
+  padding: 10px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column; /* Stack commands vertically */
+}
+
+.hidden {
+  display: none;
+}
+
+/* Style for command lists */
+.command-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.command-list li {
+  color: #4CAF50;
+  padding: 8px 16px;
+  cursor: pointer;
+}
+
+.command-list li:hover {
+  background-color: rgba(255, 255, 255, 0.05);
+}
