@@ -80,7 +80,8 @@ Example:
 
 ### ✅ **Sensitive Mode Checkbox**
 
-☑ **Checked:** Commands must be typed exactly as created (case-sensitive, no typos). 🔒
+☑ **Checked:** Commands must be typed exactly as created (case-sensitive, no typos). 🔒  
+
 ☐ **Unchecked:** Allows for small input errors and still recognizes the shortcut. 🔍
 
 ### 📜 **Commands List**
