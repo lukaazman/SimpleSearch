@@ -11,7 +11,7 @@ There are two ways to launch SimpleSearch:
 🔹 **Keyboard Shortcut (Recommended)**
    - Default: **`Ctrl + Shift + Y`**
    - Custom: Navigate to **`Chrome Extensions tab -> Keyboard Shortcuts -> SimpleSearch Extension Input 1.0 -> Activate the extension`**
-   - *(Requires Developer Mode enabled)* ⚙️
+   *(Requires Developer Mode enabled)* ⚙️
 
 🔹 **Manual Click**
    - Simply click the extension icon in the **Extensions tab**. 🖱️
