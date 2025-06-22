@@ -94,9 +94,9 @@ Example:
 ---
 
 ## 🌟 Why Use SimpleSearch?
-✅ **Speeds up browsing** – no need to type long URLs!
-✅ **Works entirely with the keyboard** – ditch the mouse! 🎯
-✅ **Customizable & lightweight** – tailor it to your workflow.
-✅ **Privacy-friendly** – runs locally, no tracking. 🔒
+✅ **Speeds up browsing** – no need to type long URLs!  
+✅ **Works entirely with the keyboard** – ditch the mouse! 🎯  
+✅ **Customizable & lightweight** – tailor it to your workflow.  
+✅ **Privacy-friendly** – runs locally, no tracking. 🔒  
 
 
